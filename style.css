@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>MIND Workshops | Mathematical Insight, Numeracy & Development</title>
+<meta name="description" content="MIND Workshops by Munira Sohail help children fall in love with mathematics through conceptual understanding, games, activities, tricks and WOW moments." />
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<header class="hero" id="home">
+<nav class="nav">
+<div class="brand"><img src="assets/mind-logo.png" alt="MIND Workshops Logo" /><div><strong>MIND Workshops</strong><span>By Munira Sohail</span></div></div>
+<div class="links"><a href="#about">About</a><a href="#method">Method</a><a href="#workshops">Workshops</a><a href="#testimonials">Testimonials</a><a href="#contact" class="nav-btn">Contact</a></div>
+</nav>
+<section class="hero-content">
+<p class="eyebrow">Mathematical Insight • Numeracy • Development</p>
+<h1>Helping Every Child Fall in Love with Mathematics</h1>
+<p class="subtitle">MIND Workshops transform mathematics teaching through conceptual understanding, hands-on activities, games, tricks, stories and unforgettable WOW moments.</p>
+<div class="cta-row"><a href="#contact" class="btn primary">Book a Workshop</a><a href="https://www.youtube.com/@meredilkibaat7467" class="btn secondary" target="_blank">Watch on YouTube</a></div>
+</section>
+</header>
+<main>
+<section class="statement"><h2>Mathematics is not difficult. It has simply been taught in a difficult way.</h2><p>At MIND, mathematics comes alive through curiosity, play, reasoning, movement, patterns, paper tricks, real-life examples and meaningful classroom experiences.</p></section>
+<section id="about" class="section split"><div><p class="section-tag">Founder & CEO</p><h2>Meet Munira Sohail</h2><p>Munira Sohail is the Founder & CEO of MIND Workshops — Mathematical Insight, Numeracy & Development. Her mission is to empower teachers with creative, conceptual and activity-based methods so that children understand mathematics deeply.</p><p>She believes every child can enjoy mathematics when concepts are explored, experienced and connected to real life instead of being memorized without meaning.</p></div><div class="feature-card"><img src="assets/mind-logo.png" alt="MIND Workshops logo" /><h3>Where every mathematics lesson becomes a WOW moment.</h3></div></section>
+<section id="method" class="section soft"><p class="section-tag">Our Signature Approach</p><h2>The MIND Method™</h2><div class="method-grid"><div><span>01</span><h3>Spark Curiosity</h3><p>Start with a question, story, puzzle or surprise.</p></div><div><span>02</span><h3>Build Concepts</h3><p>Move from hands-on experiences to deep understanding.</p></div><div><span>03</span><h3>Learn Through Play</h3><p>Use games, movement, cards, paper tricks and group challenges.</p></div><div><span>04</span><h3>Create WOW Moments</h3><p>Use mathematical magic to make learning unforgettable.</p></div><div><span>05</span><h3>Connect to Life</h3><p>Show how mathematics appears in nature, decisions and daily life.</p></div><div><span>06</span><h3>Reflect & Apply</h3><p>Help teachers and students explain the “why” behind the answer.</p></div></div></section>
+<section id="workshops" class="section"><p class="section-tag">Teacher Training & School Workshops</p><h2>Explore Our Workshops</h2><div class="cards"><article><h3>Number Sense & Place Value</h3><p>Build strong foundations using patterns, visual models and games.</p></article><article><h3>Fractions, Decimals & Percentages</h3><p>Make parts, wholes, comparisons and percentages meaningful.</p></article><article><h3>Factors, Multiples, HCF & LCM</h3><p>Teach number relationships through activities, puzzles and reasoning.</p></article><article><h3>Multiplication & Division</h3><p>Move beyond memorization toward conceptual understanding.</p></article><article><h3>Geometry & Measurement</h3><p>Use paper folding, shapes, movement and visual reasoning.</p></article><article><h3>Custom Teacher Training</h3><p>Designed for schools, educators, NGOs and learning communities.</p></article></div></section>
+<section class="section dark"><p class="section-tag">MIND in Action</p><h2>Watch Our Workshop Moments</h2><p class="center-text">See mathematics activities, classroom ideas, conceptual explanations and teaching moments on our YouTube channel.</p><a href="https://www.youtube.com/@meredilkibaat7467" target="_blank" class="btn primary">Visit Maths Made Easy With Munira Sohail</a></section>
+<section id="testimonials" class="section soft"><p class="section-tag">Teacher Testimonials</p><h2>What Participants Say</h2><div class="testimonial-grid"><blockquote>“Your teaching style was engaging, and the activities made learning Mathematics fun and easy to understand.”<cite>— Mehak Muhammad Ali</cite></blockquote><blockquote>“Even difficult topics became easy to understand. Thank you for creating such a positive learning environment.”<cite>— Sadiqa Hanif</cite></blockquote><blockquote>“The real-life examples helped us connect mathematical concepts with everyday situations.”<cite>— Workshop Participant</cite></blockquote></div></section>
+<section class="section resources"><p class="section-tag">Coming Soon</p><h2>Free Resources for Teachers</h2><p>Lesson ideas, games, worksheets, word searches, math mazes, paper tricks and classroom activities will be added here as MIND grows.</p></section>
+<section id="contact" class="section contact"><h2>Bring MIND Workshops to Your School</h2><p>For teacher training, school collaborations, mathematics workshops and educational events, connect with Munira Sohail.</p><div class="contact-buttons"><a class="btn primary" href="mailto:your-email@example.com">Email Us</a><a class="btn secondary" href="https://www.youtube.com/@meredilkibaat7467" target="_blank">YouTube Channel</a></div><p class="note">Before sharing widely, replace the email address with your official email.</p></section>
+</main>
+<footer><p>© 2026 MIND Workshops by Munira Sohail. Mathematical Insight • Numeracy • Development</p></footer>
+</body>
+</html>
