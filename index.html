@@ -6,27 +6,218 @@
   <title>MIND – Mathematical Insight, Numeracy & Development</title>
   <meta name="description" content="MIND by Munira Sohail transforms mathematics education through conceptual understanding, activities, games, magic moments and teacher training." />
   <style>
-    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Arial,Helvetica,sans-serif;color:#17213b;background:#fff;line-height:1.65}a{text-decoration:none;color:inherit}.hero{min-height:92vh;background:radial-gradient(circle at 18% 18%,rgba(247,183,51,.30),transparent 32%),radial-gradient(circle at 78% 12%,rgba(122,63,161,.22),transparent 30%),linear-gradient(135deg,#f7fbff,#fff8e8);position:relative;overflow:hidden}.hero:after{content:"";position:absolute;right:-160px;bottom:-160px;width:520px;height:520px;background:#17376d;border-radius:50%;opacity:.08}.nav{display:flex;justify-content:space-between;align-items:center;padding:22px 8%;position:relative;z-index:2}.brand{display:flex;align-items:center;gap:14px}.brand img{width:78px;height:78px;object-fit:contain}.brand strong{display:block;font-size:22px;color:#17376d}.brand span{display:block;font-size:13px;color:#7a3fa1;font-weight:700}.links{display:flex;gap:22px;align-items:center;font-weight:700}.links a{color:#17376d}.nav-btn{background:#17376d!important;color:white!important;padding:10px 18px;border-radius:999px}.hero-content{max-width:960px;padding:90px 8% 80px;position:relative;z-index:1}.eyebrow,.section-tag{text-transform:uppercase;letter-spacing:2px;font-size:13px;font-weight:900;color:#f0a51a}.hero h1{font-size:clamp(42px,7vw,78px);line-height:1.02;color:#17376d;margin:14px 0 20px}.subtitle{font-size:clamp(18px,2.3vw,24px);max-width:790px;margin-bottom:30px}.cta-row,.contact-buttons{display:flex;gap:14px;flex-wrap:wrap}.btn{display:inline-block;padding:14px 24px;border-radius:999px;font-weight:900}.primary{background:#f7b733;color:#17213b}.secondary{border:2px solid #17376d;color:#17376d;background:#fff}.statement{text-align:center;padding:70px 8%;background:#17376d;color:#fff}.statement h2{font-size:clamp(30px,4vw,50px);line-height:1.15;max-width:1080px;margin:0 auto 16px;color:#fff}.statement p{font-size:20px;max-width:850px;margin:auto}.section{padding:82px 8%}.split{display:grid;grid-template-columns:1.1fr .9fr;gap:45px;align-items:center}h2{font-size:clamp(32px,4vw,52px);line-height:1.12;color:#17376d;margin:0 0 22px}.feature-card{background:linear-gradient(135deg,#17376d,#7a3fa1);border-radius:34px;padding:42px;text-align:center;color:#fff;box-shadow:0 20px 50px rgba(23,55,109,.18)}.feature-card img{width:170px;background:#fff;border-radius:30px;padding:10px}.feature-card h3{font-size:32px;line-height:1.2}.soft{background:#f6f9ff}.method-grid,.cards,.testimonial-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}.method-grid div,.cards article,blockquote{background:#fff;border-radius:26px;padding:28px;box-shadow:0 12px 35px rgba(23,55,109,.08)}.method-grid span{font-weight:900;color:#f7b733;font-size:28px}.method-grid h3,.cards h3{color:#7a3fa1;margin-bottom:8px}.dark{background:#13284f;color:#fff;text-align:center}.dark h2{color:#fff}.center-text{max-width:760px;margin:0 auto 28px;font-size:20px}blockquote{margin:0;font-size:18px;border-top:5px solid #f7b733}cite{display:block;margin-top:18px;font-weight:900;color:#17376d}.resources{text-align:center}.resources p{max-width:820px;margin:auto}.contact{text-align:center;background:#fff8e7}.contact p{max-width:780px;margin:0 auto 26px}.contact-buttons{justify-content:center}.note{font-size:14px;opacity:.72;margin-top:18px!important}footer{text-align:center;background:#17376d;color:#fff;padding:24px 8%}@media(max-width:900px){.links{display:none}.split,.method-grid,.cards,.testimonial-grid{grid-template-columns:1fr}.hero-content{padding-top:65px}.brand img{width:62px;height:62px}.section{padding:58px 7%}}
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{margin:0;font-family:Arial,Helvetica,sans-serif;color:#17213b;background:#fff;line-height:1.65}
+    a{text-decoration:none;color:inherit}
+    .hero{min-height:92vh;background:radial-gradient(circle at 18% 18%,rgba(247,183,51,.32),transparent 32%),radial-gradient(circle at 78% 12%,rgba(122,63,161,.24),transparent 30%),linear-gradient(135deg,#f7fbff,#fff8e8);position:relative;overflow:hidden}
+    .hero:after{content:"";position:absolute;right:-160px;bottom:-160px;width:520px;height:520px;background:#17376d;border-radius:50%;opacity:.08}
+    .nav{display:flex;justify-content:space-between;align-items:center;padding:22px 8%;position:relative;z-index:2}
+    .brand{display:flex;align-items:center;gap:14px}
+    .brand img{width:78px;height:78px;object-fit:contain}
+    .brand strong{display:block;font-size:22px;color:#17376d}
+    .brand span{display:block;font-size:13px;color:#7a3fa1;font-weight:700}
+    .links{display:flex;gap:22px;align-items:center;font-weight:700}
+    .links a{color:#17376d}
+    .nav-btn{background:#17376d!important;color:white!important;padding:10px 18px;border-radius:999px}
+    .hero-content{max-width:980px;padding:90px 8% 80px;position:relative;z-index:1}
+    .eyebrow,.section-tag{text-transform:uppercase;letter-spacing:2px;font-size:13px;font-weight:900;color:#f0a51a}
+    .hero h1{font-size:clamp(42px,7vw,78px);line-height:1.02;color:#17376d;margin:14px 0 20px}
+    .subtitle{font-size:clamp(18px,2.3vw,24px);max-width:820px;margin-bottom:30px}
+    .cta-row,.contact-buttons{display:flex;gap:14px;flex-wrap:wrap}
+    .btn{display:inline-block;padding:14px 24px;border-radius:999px;font-weight:900}
+    .primary{background:#f7b733;color:#17213b}
+    .secondary{border:2px solid #17376d;color:#17376d;background:#fff}
+    .statement{text-align:center;padding:70px 8%;background:#17376d;color:#fff}
+    .statement h2{font-size:clamp(30px,4vw,50px);line-height:1.15;max-width:1080px;margin:0 auto 16px;color:#fff}
+    .statement p{font-size:20px;max-width:870px;margin:auto}
+    .section{padding:82px 8%}
+    .split{display:grid;grid-template-columns:1.15fr .85fr;gap:45px;align-items:center}
+    h2{font-size:clamp(32px,4vw,52px);line-height:1.12;color:#17376d;margin:0 0 22px}
+    .feature-card{background:linear-gradient(135deg,#17376d,#7a3fa1);border-radius:34px;padding:42px;text-align:center;color:#fff;box-shadow:0 20px 50px rgba(23,55,109,.18)}
+    .feature-card img{width:170px;background:#fff;border-radius:30px;padding:10px}
+    .feature-card h3{font-size:31px;line-height:1.2}
+    .soft{background:#f6f9ff}
+    .gold{background:#fff8e7}
+    .method-grid,.cards,.testimonial-grid,.impact-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+    .method-grid div,.cards article,blockquote,.impact-card{background:#fff;border-radius:26px;padding:28px;box-shadow:0 12px 35px rgba(23,55,109,.08)}
+    .method-grid span{font-weight:900;color:#f7b733;font-size:28px}
+    .method-grid h3,.cards h3{color:#7a3fa1;margin-bottom:8px}
+    .impact-grid{grid-template-columns:repeat(4,1fr)}
+    .impact-card{text-align:center}
+    .impact-card strong{display:block;font-size:40px;color:#7a3fa1}
+    .dark{background:#13284f;color:#fff;text-align:center}
+    .dark h2{color:#fff}
+    .center-text{max-width:820px;margin:0 auto 28px;font-size:20px}
+    blockquote{margin:0;font-size:17px;border-top:5px solid #f7b733}
+    cite{display:block;margin-top:18px;font-weight:900;color:#17376d}
+    .resources{text-align:center}
+    .resources p{max-width:820px;margin:auto}
+    .contact{text-align:center;background:#fff8e7}
+    .contact p{max-width:780px;margin:0 auto 26px}
+    .contact-buttons{justify-content:center}
+    .note{font-size:14px;opacity:.72;margin-top:18px!important}
+    footer{text-align:center;background:#17376d;color:#fff;padding:24px 8%}
+    @media(max-width:900px){.links{display:none}.split,.method-grid,.cards,.testimonial-grid,.impact-grid{grid-template-columns:1fr}.hero-content{padding-top:65px}.brand img{width:62px;height:62px}.section{padding:58px 7%}}
   </style>
 </head>
 <body>
   <header class="hero" id="home">
     <nav class="nav">
-      <div class="brand"><img src="mind-logo.png" alt="MIND Logo" /><div><strong>MIND</strong><span>Mathematical Insight, Numeracy & Development</span></div></div>
-      <div class="links"><a href="#about">About</a><a href="#method">Method</a><a href="#workshops">Workshops</a><a href="#testimonials">Testimonials</a><a href="#contact" class="nav-btn">Contact</a></div>
+      <div class="brand">
+        <img src="mind-logo.png" alt="MIND Logo" />
+        <div>
+          <strong>MIND</strong>
+          <span>Mathematical Insight, Numeracy & Development</span>
+        </div>
+      </div>
+      <div class="links">
+        <a href="#about">About</a>
+        <a href="#method">Method</a>
+        <a href="#impact">Impact</a>
+        <a href="#testimonials">Testimonials</a>
+        <a href="#contact" class="nav-btn">Contact</a>
+      </div>
     </nav>
-    <section class="hero-content"><p class="eyebrow">By Munira Sohail</p><h1>Helping Every Child Fall in Love with Mathematics</h1><p class="subtitle">MIND transforms mathematics education through conceptual understanding, activity-based learning, games, tricks, stories and unforgettable WOW moments.</p><div class="cta-row"><a href="#contact" class="btn primary">Book a Workshop</a><a href="https://www.youtube.com/@meredilkibaat7467" class="btn secondary" target="_blank">Watch on YouTube</a></div></section>
+
+    <section class="hero-content">
+      <p class="eyebrow">By Munira Sohail</p>
+      <h1>Helping Every Child Fall in Love with Mathematics</h1>
+      <p class="subtitle">
+        MIND transforms mathematics education through conceptual understanding,
+        activity-based learning, games, tricks, stories, real-life connections and unforgettable WOW moments.
+      </p>
+      <div class="cta-row">
+        <a href="#contact" class="btn primary">Book a Workshop</a>
+        <a href="https://www.youtube.com/@meredilkibaat7467" class="btn secondary" target="_blank">Watch on YouTube</a>
+      </div>
+    </section>
   </header>
+
   <main>
-    <section class="statement"><h2>Mathematics is not difficult. It has simply been taught in a difficult way.</h2><p>At MIND, mathematics comes alive through curiosity, play, reasoning, movement, patterns, paper tricks, real-life examples and meaningful classroom experiences.</p></section>
-    <section id="about" class="section split"><div><p class="section-tag">Founder & CEO</p><h2>Meet Munira Sohail</h2><p>Munira Sohail is the Founder & CEO of MIND — Mathematical Insight, Numeracy & Development. Her mission is to empower teachers with creative, conceptual and activity-based methods so that children understand mathematics deeply.</p><p>She believes every child can enjoy mathematics when concepts are explored, experienced and connected to real life instead of being memorized without meaning.</p></div><div class="feature-card"><img src="mind-logo.png" alt="MIND logo" /><h3>Where every mathematics lesson becomes a WOW moment.</h3></div></section>
-    <section id="method" class="section soft"><p class="section-tag">Our Signature Approach</p><h2>The MIND Method™</h2><div class="method-grid"><div><span>01</span><h3>Spark Curiosity</h3><p>Start with a question, story, puzzle or surprise.</p></div><div><span>02</span><h3>Build Concepts</h3><p>Move from hands-on experiences to deep understanding.</p></div><div><span>03</span><h3>Learn Through Play</h3><p>Use games, movement, cards, paper tricks and group challenges.</p></div><div><span>04</span><h3>Create WOW Moments</h3><p>Use mathematical magic to make learning unforgettable.</p></div><div><span>05</span><h3>Connect to Life</h3><p>Show how mathematics appears in nature, decisions and daily life.</p></div><div><span>06</span><h3>Reflect & Apply</h3><p>Help teachers and students explain the “why” behind the answer.</p></div></div></section>
-    <section id="workshops" class="section"><p class="section-tag">Teacher Training & School Workshops</p><h2>Explore Our Workshops</h2><div class="cards"><article><h3>Number Sense & Place Value</h3><p>Build strong foundations using patterns, visual models and games.</p></article><article><h3>Fractions, Decimals & Percentages</h3><p>Make parts, wholes, comparisons and percentages meaningful.</p></article><article><h3>Factors, Multiples, HCF & LCM</h3><p>Teach number relationships through activities, puzzles and reasoning.</p></article><article><h3>Multiplication & Division</h3><p>Move beyond memorization toward conceptual understanding.</p></article><article><h3>Geometry & Measurement</h3><p>Use paper folding, shapes, movement and visual reasoning.</p></article><article><h3>Custom Teacher Training</h3><p>Designed for schools, educators, NGOs and learning communities.</p></article></div></section>
-    <section class="section dark"><p class="section-tag">MIND in Action</p><h2>Watch Our Workshop Moments</h2><p class="center-text">See mathematics activities, classroom ideas, conceptual explanations and teaching moments on our YouTube channel.</p><a href="https://www.youtube.com/@meredilkibaat7467" target="_blank" class="btn primary">Visit Maths Made Easy With Munira Sohail</a></section>
-    <section id="testimonials" class="section soft"><p class="section-tag">Teacher Testimonials</p><h2>What Participants Say</h2><div class="testimonial-grid"><blockquote>“Your teaching style was engaging, and the activities made learning Mathematics fun and easy to understand.”<cite>— Mehak Muhammad Ali</cite></blockquote><blockquote>“Even difficult topics became easy to understand. Thank you for creating such a positive learning environment.”<cite>— Sadiqa Hanif</cite></blockquote><blockquote>“The real-life examples helped us connect mathematical concepts with everyday situations.”<cite>— Workshop Participant</cite></blockquote></div></section>
-    <section class="section resources"><p class="section-tag">Coming Soon</p><h2>Free Resources for Teachers</h2><p>Lesson ideas, games, worksheets, word searches, math mazes, paper tricks and classroom activities will be added here as MIND grows.</p></section>
-    <section id="contact" class="section contact"><h2>Bring MIND to Your School</h2><p>For teacher training, school collaborations, mathematics workshops and educational events, connect with Munira Sohail.</p><div class="contact-buttons"><a class="btn primary" href="mailto:your-email@example.com">Email Us</a><a class="btn secondary" href="https://www.youtube.com/@meredilkibaat7467" target="_blank">YouTube Channel</a></div><p class="note">Replace this temporary email with your official email before sharing widely.</p></section>
+    <section class="statement">
+      <h2>Mathematics is not difficult. It has simply been taught in a difficult way.</h2>
+      <p>
+        At MIND, mathematics comes alive through curiosity, play, reasoning, movement,
+        patterns, paper tricks, real-life examples and meaningful classroom experiences.
+      </p>
+    </section>
+
+    <section id="about" class="section split">
+      <div>
+        <p class="section-tag">Founder & CEO</p>
+        <h2>Meet Munira Sohail</h2>
+        <p>
+          Munira Sohail is the Founder & CEO of <strong>MIND – Mathematical Insight, Numeracy & Development</strong>.
+          For more than three decades, mathematics has been her passion, purpose and lifelong area of exploration.
+        </p>
+        <p>
+          She holds a degree in <strong>Civil Engineering from NED University of Engineering & Technology</strong>,
+          where she graduated with distinction. She completed her <strong>MBA from Hamdard Institute of Management Sciences</strong>,
+          earning <strong>two Gold Medals</strong>, and recently completed her <strong>MS in Mathematics from IBA Karachi</strong>,
+          securing <strong>Third Position</strong>.
+        </p>
+        <p>
+          Alongside her educational work, she serves as a <strong>Partner and Chief Marketing Officer</strong>
+          in her family business and actively volunteers as an educational leader within the Aga Khan community.
+        </p>
+        <p>
+          Her teaching philosophy connects mathematics with everyday life, the universe and the beauty of God's creation.
+          Her mission is to replace fear and memorization with curiosity, confidence and deep conceptual understanding.
+        </p>
+      </div>
+      <div class="feature-card">
+        <img src="mind-logo.png" alt="MIND logo" />
+        <h3>“I do not just teach mathematics. I help people experience it.”</h3>
+      </div>
+    </section>
+
+    <section id="impact" class="section gold">
+      <p class="section-tag">Our Impact</p>
+      <h2>The MIND Journey So Far</h2>
+      <div class="impact-grid">
+        <div class="impact-card"><strong>30+</strong><span>Years of Passion for Mathematics</span></div>
+        <div class="impact-card"><strong>200+</strong><span>Teachers Trained</span></div>
+        <div class="impact-card"><strong>10+</strong><span>Educational Organizations</span></div>
+        <div class="impact-card"><strong>100%</strong><span>Focus on Conceptual Learning</span></div>
+      </div>
+    </section>
+
+    <section id="method" class="section soft">
+      <p class="section-tag">Our Signature Approach</p>
+      <h2>The MIND Method™</h2>
+      <div class="method-grid">
+        <div><span>01</span><h3>Spark Curiosity</h3><p>Start with a question, story, puzzle or surprise.</p></div>
+        <div><span>02</span><h3>Build Concepts</h3><p>Move from hands-on experiences to deep understanding.</p></div>
+        <div><span>03</span><h3>Learn Through Play</h3><p>Use games, movement, cards, paper tricks and group challenges.</p></div>
+        <div><span>04</span><h3>Create WOW Moments</h3><p>Use mathematical magic to make learning unforgettable.</p></div>
+        <div><span>05</span><h3>Connect to Life</h3><p>Show how mathematics appears in nature, decisions and daily life.</p></div>
+        <div><span>06</span><h3>Reflect & Apply</h3><p>Help teachers and students explain the “why” behind the answer.</p></div>
+      </div>
+    </section>
+
+    <section id="workshops" class="section">
+      <p class="section-tag">Teacher Training & School Workshops</p>
+      <h2>Why MIND?</h2>
+      <div class="cards">
+        <article><h3>Conceptual Understanding</h3><p>We focus on the “why” behind mathematical ideas, not only the procedure.</p></article>
+        <article><h3>Games & Activities</h3><p>Teachers experience classroom-ready activities that make learning active and joyful.</p></article>
+        <article><h3>Mathematical Magic</h3><p>Surprising tricks, puzzles and patterns create curiosity and memorable learning.</p></article>
+        <article><h3>Real-life Connections</h3><p>Mathematics is connected to daily life, nature, decisions and the universe.</p></article>
+        <article><h3>Teacher Confidence</h3><p>Workshops help educators teach difficult topics in simple, meaningful ways.</p></article>
+        <article><h3>WOW Moments</h3><p>Every session is designed to inspire wonder, discussion and discovery.</p></article>
+      </div>
+    </section>
+
+    <section class="section dark">
+      <p class="section-tag">MIND in Action</p>
+      <h2>Watch Our Workshop Moments</h2>
+      <p class="center-text">
+        See mathematics activities, classroom ideas, conceptual explanations and teaching moments on our YouTube channel.
+      </p>
+      <a href="https://www.youtube.com/@meredilkibaat7467" target="_blank" class="btn primary">
+        Visit Maths Made Easy With Munira Sohail
+      </a>
+    </section>
+
+    <section id="testimonials" class="section soft">
+      <p class="section-tag">Teacher Testimonials</p>
+      <h2>What Educators Say About MIND</h2>
+      <div class="testimonial-grid">
+        <blockquote>“You completely changed our perspective and showed us that Mathematics can be an enjoyable subject. Your teaching style is creative, engaging, and easy to understand.”<cite>— Shumaila Hussain</cite></blockquote>
+        <blockquote>“Even those who disliked Mathematics started to like the subject. Your teaching methods, activities, and real-life examples made every concept simple and interesting.”<cite>— Insha Imran</cite></blockquote>
+        <blockquote>“The activities made learning Mathematics fun and easy to understand. The real-life examples helped us connect mathematical concepts with everyday situations.”<cite>— Mehak Muhammad Ali</cite></blockquote>
+        <blockquote>“The workshop completely changed my perspective on teaching mathematics through engaging activities and real-life connections.”<cite>— Tehreem Rehmani</cite></blockquote>
+        <blockquote>“I will use these methods in my classroom to help my students understand mathematical concepts in an easy and interesting way.”<cite>— Samiya Naz</cite></blockquote>
+        <blockquote>“Your positive, patient and encouraging attitude created a comfortable learning environment where we felt confident to ask questions and learn.”<cite>— Syeda Nafeesa Shah, Senior Classes Coordinator</cite></blockquote>
+      </div>
+    </section>
+
+    <section class="section resources">
+      <p class="section-tag">Coming Soon</p>
+      <h2>Free Resources for Teachers</h2>
+      <p>
+        Lesson ideas, games, worksheets, word searches, math mazes, paper tricks and classroom activities
+        will be added here as MIND grows.
+      </p>
+    </section>
+
+    <section id="contact" class="section contact">
+      <h2>Bring MIND to Your School</h2>
+      <p>
+        For teacher training, school collaborations, mathematics workshops and educational events,
+        connect with Munira Sohail.
+      </p>
+      <div class="contact-buttons">
+        <a class="btn primary" href="mailto:your-email@example.com">Email Us</a>
+        <a class="btn secondary" href="https://www.youtube.com/@meredilkibaat7467" target="_blank">YouTube Channel</a>
+      </div>
+      <p class="note">Replace this temporary email with your official email before sharing widely.</p>
+    </section>
   </main>
-  <footer><p>© 2026 MIND by Munira Sohail. Mathematical Insight • Numeracy • Development</p></footer>
+
+  <footer>
+    <p>© 2026 MIND by Munira Sohail. Mathematical Insight • Numeracy • Development</p>
+  </footer>
 </body>
 </html>
